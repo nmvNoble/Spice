@@ -1,0 +1,21 @@
+﻿@model Udemy_Spice_MVC.Models.ViewModels.OrderDetailsViewModel
+@using Udemy_Spice_MVC.Utility
+
+<div>
+    @if (Model.orderHeader.status == SD.StatusSubmitted)
+    {
+        <img src="~/images/OrderPlaced.png" width="99%" style="border-radius:5px;border:1px solid #bbb9b9" />
+    }
+    @if (Model.orderHeader.status == SD.StatusInProcess)
+    {
+        <img src="~/images/InKitchen.png" width="99%" style="border-radius:5px;border:1px solid #bbb9b9" />
+    }
+    @if (Model.orderHeader.status == SD.StatusReady)
+    {
+        <img src="~/images/ReadyForPickup.png" width="99%" style="border-radius:5px;border:1px solid #bbb9b9" />
+    }
+    @if (Model.orderHeader.status == SD.StatusCompleted)
+    {
+        <img src="~/images/completed.png" width="99%" style="border-radius:5px;border:1px solid #bbb9b9" />
+    }
+</div>

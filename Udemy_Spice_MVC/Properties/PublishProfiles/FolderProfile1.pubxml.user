@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Udemy\ASP.NET Core 3.1\Udemy_Spice_MVC\IIS Deployment</_PublishTargetUrl>
+    <History>False|2021-06-02T05:58:37.1359282Z;True|2021-06-02T13:26:37.5124167+08:00;</History>
+  </PropertyGroup>
+</Project>
